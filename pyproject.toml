@@ -1,7 +1,5 @@
 [project]
-name = "advancedselector"
-version = "3.0.0"
-authors = [
+name = "advancedselector" version = "3.0.5" authors = [
   { name="kougen", email="info@kou-gen.net" },
 ]
 description = "Cross platform terminal selector implemented in Python"
@@ -11,6 +9,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "getch; os_name != 'nt'",
 ]
 
 [project.urls]

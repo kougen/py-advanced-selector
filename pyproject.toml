@@ -1,7 +1,14 @@
 [project]
-name = "advancedselector" version = "3.0.5" authors = [
+name = "advancedselector" 
+version = "3.1.0" 
+authors = [
   { name="kougen", email="info@kou-gen.net" },
 ]
+
+maintainers = [
+  { name="Joshua Hegedus", email="josh.hegedus@outlook.com" },
+]
+
 description = "Cross platform terminal selector implemented in Python"
 readme = "README.md"
 requires-python = ">=3.8"

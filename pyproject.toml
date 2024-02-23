@@ -1,6 +1,6 @@
 [project]
-name = "advanced-selector"
-version = "0.1.0"
+name = "advancedselector"
+version = "3.0.0"
 authors = [
   { name="kougen", email="info@kou-gen.net" },
 ]
@@ -16,3 +16,7 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/kougen/py-advanced-selector"
 Issues = "https://github.com/kougen/py-advanced-selector/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
